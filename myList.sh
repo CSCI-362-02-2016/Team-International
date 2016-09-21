@@ -1,5 +1,8 @@
 #!/bin/bash
 # My first script
+# Team International - Gui Costa, Megan Landau, Tony Tang
+# This is a script, myList.sh for Unix that lists the top-level directory contents of its containing directory in an html file displayed in a browser. 
+
 
 #Change font
 echo "<font face = "Helvetica"><b>TEAM INTERNATIONAL</b></font>" >> myList.html
