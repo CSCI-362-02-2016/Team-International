@@ -1,9 +1,10 @@
 #include <iostream>
 #include "mathlib.h"
+using namespace std;
 int main()
 {
 	
-  using namespace std;
+  
   cout<< "Starting circleArea method testing..."<< endl;
   int r = 10;
   int c = circleArea(r);
