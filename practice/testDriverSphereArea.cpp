@@ -1,9 +1,11 @@
 #include <iostream>
 #include "mathlib.h"
+
+using namespace std;
 int main()
 {
 	
-  using namespace std;
+  
   cout<< "Testing sphereArea method... "<< endl;
   int r = 5;
   int a = sphereArea(r);
