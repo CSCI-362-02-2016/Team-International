@@ -1,16 +1,12 @@
 #include <iostream>
-
 #include "mathlib.h"
-
-
 int main()
 {
-   using namespace std;
-   cout << "Hello World"; // prints Hello World
-   
-   int a = 2;
-   int b = square(a);
-   cout << "The output of the square of a is: " << square(b) << endl;
-   
-   return 0;
+	
+  using namespace std;
+  cout<< "Starting square method testing..."<< endl;
+  int a = 2;
+  int s = square(a);
+
+  cout << "The square of 2 is : " << s << endl;
 }
