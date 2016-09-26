@@ -1,9 +1,10 @@
 #include <iostream>
 #include "mathlib.h"
+using namespace std;
 int main()
 {
 	
-  using namespace std;
+  
   cout<< "Starting cube method testing..."<< endl;
   int a = 2;
   int c = cube(a);
