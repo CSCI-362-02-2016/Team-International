@@ -1,5 +1,8 @@
 1
+<<<<<<< HEAD
 this method squares a number
+=======
+>>>>>>> 54ab34add1933914990bbab06d2dc7b21bb336bd
 Mathlib.h
 testDriverSquare.cpp
 square()

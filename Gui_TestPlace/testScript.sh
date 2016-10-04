@@ -1,4 +1,5 @@
 #!/bin/bash
+<<<<<<< HEAD
 
 
 readarray -t LINES < testCase1
@@ -24,3 +25,21 @@ g++ ${LINES[3]} -o nameOfCompiledDriver  #puts variable name of driver, compiles
 #next: need to get a return value from running compiled driver
 #need to compare return val with expected outcome ${LINES[6]} - P/F!!
 #need if statement to determine if the test passed or failed
+=======
+# My first script
+ 
+
+ARRAY=()
+
+#! /bin/bash
+cat testCase1 | while read LINE
+do
+echo $LINE
+ARRAY+=($LINE)
+
+echo "${ARRAY[2]}"
+done
+
+echo ${ARRAY[3]}
+
+>>>>>>> 54ab34add1933914990bbab06d2dc7b21bb336bd
