@@ -4,7 +4,7 @@
 readarray -t LINES < testCase1
 
 TESTCASE=${LINES[0]} #sets TESTCASE to a variable = to LINES[0]
-echo "test case # = "
+echo "test case ## = "
 echo $TESTCASE
 
 REQUIREMENT=${LINES[1]}

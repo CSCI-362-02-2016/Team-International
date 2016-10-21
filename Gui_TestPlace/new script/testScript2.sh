@@ -3,27 +3,24 @@
 
 readarray -t LINES < testCase1
 
-TESTCASE=${LINES[0]} #sets TESTCASE to a variable = to LINES[0]
-echo "test case # = "
-echo $TESTCASE
-
+TESTCASE=${LINES[0]}       #sets TESTCASE to a variable = to LINES[0]
 REQUIREMENT=${LINES[1]}
-echo "requirement = "
-echo $REQUIREMENT
-
 DRIVER=${LINES[3]}
-echo "test driver = "
-echo $DRIVER
-
-echo "input being tested = "
-echo ${LINES[5]}
-
-g++ ${LINES[3]} -o compiledDriver2  #puts variable name of driver, compiles to new
-RESULT=$(./compiledDriver2 ${LINES[5]}) #${LINES[6]}  uncomment if you need a 2nd arg
-echo "result = "
-echo $RESULT
-
+INPUT=${LINES[5]}
 EXPECTED=${LINES[6]}
+
+
+g++ $DRIVER -o compiledDriver2  #puts variable name of driver, compiles to new
+RESULT=$(./compiledDriver2 $INPUT) #${LINES[6]}  uncomment if you need a 2nd arg
+
+echo "Test case #:          $TESTCASE"
+echo "Requirement:          $REQUIREMENT"
+echo "Test driver:          $DRIVER"
+echo "Input being tested:   $INPUT"
+echo "Result:               $RESULT"
+
+
+
 if [ $RESULT -eq $EXPECTED ]; then
 echo "pass!"
 else
