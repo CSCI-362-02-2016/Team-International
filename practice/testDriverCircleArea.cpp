@@ -1,13 +1,15 @@
 #include <iostream>
 #include "mathlib.h"
-using namespace std;
-int main()
-{
-	
-  
-  cout<< "Starting circleArea method testing..."<< endl;
-  int r = 10;
-  int c = circleArea(r);
 
-  cout << "The area of the circle with a radius of 10 is : " << c << endl;
+int main(int argc, char* argv[]) {
+
+	using namespace std;
+	int a = atoi(argv[1]);
+	//int b = atoi(argv[2]);
+	int retval = circleArea(a);
+	cout << retval << endl; //return the area of the circle of the argument
+
+
+
+
 }
