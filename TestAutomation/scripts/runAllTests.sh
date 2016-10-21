@@ -2,7 +2,7 @@
 
 
 
-for i in $( ls ../testCases ); do
+for i in $( ls ../testCases ); do  # ls the /TestCases dir and loop all files.
 
 readarray -t LINES < ../testCases/$i
 
@@ -17,7 +17,7 @@ EXPECTED_OUTCOME=${LINES[16]}
 
 cd ../testCasesExecutables #Switch to Driver Directory
 
-g++ $DRIVER -o ${DRIVER::-4}  #Compile the driver *${DRIVER::-4} shave off .cpp*
+g++ $DRIVER -o ${DRIVER::-4}  #Compile the driver *${DRIVER::-4} shave off .cpp extension*
 
 RESULT=$(./${DRIVER::-4} $INPUT) #Run the driver and save return to $RESULT.
 echo "#########TEST RESULT############"
