@@ -2,9 +2,9 @@
 #include "mathlib.h"
 
 /*
-*This  method mathematically cubes an input and returns a result.
-* ARG: Input
-* RETURN: Cubed INPUT
+* This driver uses the math library from celestia project and runs the * cube method and return the cube result of the input
+* PRECONDITION : Int input
+* RETURN: Cubed input
 *
 */
 
