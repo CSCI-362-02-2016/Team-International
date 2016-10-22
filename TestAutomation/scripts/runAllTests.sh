@@ -1,8 +1,8 @@
 #!/bin/bash
 
-<<<<<<< HEAD
-echo "<table border ="1px"><tr><td>TestCase</td><td>Result</td><td>passOrFail</td></tr></table>" > ../reports/test.html
-=======
+
+#echo "<table border ="1px"><tr><td>TestCase</td><td>Result</td><td>passOrFail</td></tr></table>" > ../reports/test.html
+
 echo "<table border ="1px">
 	<tr>
 		<th>TestCaseID</th>
@@ -13,17 +13,12 @@ echo "<table border ="1px">
 		<th> Pass/ Fail</th>
 	</tr>
 	<tr>
-		<td>value</td>
-		<td>value</td>
-		<td>value</td>
-		<td>value</td>
-		<td>value</td>
-		<td>value</td>
+
 		
 	
 	</tr>
-	</table>" > test.html
->>>>>>> 88b7b5200c5d4f61799e3f4358b2477950569185
+	" > ../reports/test.html
+
 
 for i in $( ls ../testCases ); do  # ls the /TestCases dir and loop all files.
 
@@ -62,14 +57,14 @@ fi
 ###CREATE A TABLE WITH RESULTS###
 
 
-for k in {1..6}
-do
-echo "<td>$TESTCASE</td><td>$METHOD</td>" >> ../reports/test.html
+#for k in {1..6}
+#do
+echo "<tr><td>$TESTCASE</td><td>$METHOD</td><td>$INPUT</td><td>$EXPECTED_OUTPUT</td><td>$RESULT</td><td>$RESULT_OUTCOME</td>                       </tr>" >> ../reports/test.html
 
 
 
 
-done
+#done
 ###END OF TABLE CREATING###
 
 
