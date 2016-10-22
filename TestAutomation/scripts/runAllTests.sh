@@ -15,7 +15,7 @@ echo "<table border ="1px">
 		
 	
 	</tr>
-	" > ../reports/test.html
+	" > ../reports/report.html
 
 
 #for i in $(ls ../testCases -1 | wc -l); do  # ls the /TestCases dir and loop all files.
@@ -55,10 +55,10 @@ fi
 
 ###Populate table with results
 
-echo "<tr><td>$TESTCASE</td><td>$METHOD</td><td>$INPUT</td><td>$EXPECTED_OUTPUT</td><td>$RESULT</td><td>$RESULT_OUTCOME</td>                       </tr>" >> ../reports/test.html
+echo "<tr><td>$TESTCASE</td><td>$METHOD</td><td>$INPUT</td><td>$EXPECTED_OUTPUT</td><td>$RESULT</td><td>$RESULT_OUTCOME</td>                       </tr>" >> ../reports/report.html
 
 done #end of for loop
 
-xdg-open ../reports/test.html
+xdg-open ../reports/report.html
 
 
