@@ -8,10 +8,10 @@
 #	7. Expected outcome
 #
 
-4
+10
 this method cubes a number
-mathlib.h
+Mathlib.h
 testDriverCube.cpp
 cube()
-8
-512
+8765
+673373097125
