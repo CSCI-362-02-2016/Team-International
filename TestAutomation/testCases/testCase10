@@ -13,5 +13,5 @@ this method cubes a number
 Mathlib.h
 testDriverCube.cpp
 cube()
-8765
-673373097125
+876
+672221376
