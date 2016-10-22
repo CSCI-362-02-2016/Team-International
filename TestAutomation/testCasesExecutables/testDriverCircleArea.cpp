@@ -9,8 +9,8 @@
 int main(int argc, char* argv[]) {
 
 	using namespace std;
-	int r = atoi(argv[1]);
-	int retval = circleArea(r);
+	float r = atof(argv[1]);
+	float retval = circleArea(r);
 	cout << retval << endl; //return the area of the circle of the argument
 
 }
