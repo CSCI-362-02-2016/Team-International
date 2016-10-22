@@ -8,10 +8,10 @@
 #	7. Expected outcome
 #
 
-2
-this method squares a number
+9
+this method takes the sphere area of a radius input
 mathlib.h
-testDriverSquare.cpp
-square()
-10
-100
+testDriverSphereArea.cpp
+sphereArea()
+5
+314
