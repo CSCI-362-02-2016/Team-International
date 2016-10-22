@@ -47,7 +47,7 @@ echo "Input:			$INPUT"
 echo "Expected Output:	$EXPECTED_OUTPUT"
 echo "Actual Output:		$RESULT"
 
-if [ $RESULT -eq $EXPECTED_OUTPUT ]; then
+if [ $RESULT "==" $EXPECTED_OUTPUT ]; then
 RESULT_OUTCOME="pass"
 echo "Test Result:          	$RESULT_OUTCOME"
 else
