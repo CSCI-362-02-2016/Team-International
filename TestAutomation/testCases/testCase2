@@ -10,7 +10,7 @@
 
 2
 this method squares a number
-Mathlib.h
+mathlib.h
 testDriverSquare.cpp
 square()
 10
