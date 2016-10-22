@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+echo "<table border ="1px"><tr><td>TestCase</td><td>Result</td><td>passOrFail</td></tr></table>" > test.html
 
 for i in $( ls ../testCases ); do  # ls the /TestCases dir and loop all files.
 
@@ -29,9 +29,11 @@ echo "Expected Output:	$EXPECTED_OUTPUT"
 echo "Actual Output:		$RESULT"
 
 if [ $RESULT "==" $EXPECTED_OUTPUT ]; then
-echo "Test Result:          	Pass"
+RESULT_OUTCOME="pass"
+echo "Test Result:          	$RESULT_OUTCOME"
 else
-echo "Test Result:		Fail"
+RESULT_OUTCOME="fail"
+echo "Test Result:		$RESULT_OUTCOME"
 fi
 
 done #end of for loop
