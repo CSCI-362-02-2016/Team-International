@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "<table border ="1px"><tr><td>TestCase</td><td>Result</td><td>passOrFail</td></tr></table>" > test.html
+echo "<table border ="1px"><tr><td>TestCase</td><td>Result</td><td>passOrFail</td></tr></table>" > ../reports/test.html
 
 for i in $( ls ../testCases ); do  # ls the /TestCases dir and loop all files.
 
@@ -35,6 +35,20 @@ else
 RESULT_OUTCOME="fail"
 echo "Test Result:		$RESULT_OUTCOME"
 fi
+
+###CREATE A TABLE WITH RESULTS###
+
+
+for k in {1..6}
+do
+echo "<td>$TESTCASE</td><td>$METHOD</td>" >> ../reports/test.html
+
+
+
+
+done
+###END OF TABLE CREATING###
+
 
 done #end of for loop
 
