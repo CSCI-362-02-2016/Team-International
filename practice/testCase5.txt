@@ -1,0 +1,17 @@
+# Test cases are written in the following format:
+# 	1. Test Case ID
+#	2. Requirement being tested
+# 	3. Component being tested
+#	4. Method being tested
+# 	5. Driver being used
+#	6. Test input(s)
+#	7. Expected outcome
+#
+
+5
+this method squares a number
+Mathlib.h
+testDriverSquare.cpp
+square()
+0.5
+0.25
