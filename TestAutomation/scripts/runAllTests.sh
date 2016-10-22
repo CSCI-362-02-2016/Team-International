@@ -1,6 +1,29 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 echo "<table border ="1px"><tr><td>TestCase</td><td>Result</td><td>passOrFail</td></tr></table>" > ../reports/test.html
+=======
+echo "<table border ="1px">
+	<tr>
+		<th>TestCaseID</th>
+		<th>Method</th>
+		<th>Input</th>
+		<th>Expected Outcome</th>
+		<th>Actual Output</td>
+		<th> Pass/ Fail</th>
+	</tr>
+	<tr>
+		<td>value</td>
+		<td>value</td>
+		<td>value</td>
+		<td>value</td>
+		<td>value</td>
+		<td>value</td>
+		
+	
+	</tr>
+	</table>" > test.html
+>>>>>>> 88b7b5200c5d4f61799e3f4358b2477950569185
 
 for i in $( ls ../testCases ); do  # ls the /TestCases dir and loop all files.
 
@@ -28,7 +51,7 @@ echo "Input:			$INPUT"
 echo "Expected Output:	$EXPECTED_OUTPUT"
 echo "Actual Output:		$RESULT"
 
-if [ $RESULT -eq $EXPECTED_OUTPUT ]; then
+if [ $RESULT "==" $EXPECTED_OUTPUT ]; then
 RESULT_OUTCOME="pass"
 echo "Test Result:          	$RESULT_OUTCOME"
 else
