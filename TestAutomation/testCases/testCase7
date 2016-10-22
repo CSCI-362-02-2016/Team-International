@@ -8,10 +8,10 @@
 #	7. Expected outcome
 #
 
-5
-calculate the area of a circle given a radius
-mathlib.h
-testDriverAreaCircle.cpp
-circleArea()
-3
-28.27
+7
+this method cubes a number
+Mathlib.h
+testDriverCube.cpp
+cube()
+a
+error
