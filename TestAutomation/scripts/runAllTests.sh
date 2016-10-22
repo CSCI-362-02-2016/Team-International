@@ -1,6 +1,25 @@
 #!/bin/bash
 
-echo "<table border ="1px"><tr><td>TestCase</td><td>Result</td><td>passOrFail</td></tr></table>" > test.html
+echo "<table border ="1px">
+	<tr>
+		<th>TestCaseID</th>
+		<th>Method</th>
+		<th>Input</th>
+		<th>Expected Outcome</th>
+		<th>Actual Output</td>
+		<th> Pass/ Fail</th>
+	</tr>
+	<tr>
+		<td>value</td>
+		<td>value</td>
+		<td>value</td>
+		<td>value</td>
+		<td>value</td>
+		<td>value</td>
+		
+	
+	</tr>
+	</table>" > test.html
 
 for i in $( ls ../testCases ); do  # ls the /TestCases dir and loop all files.
 
