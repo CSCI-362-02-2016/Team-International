@@ -8,7 +8,7 @@
 #	7. Expected outcome
 #
 
-4
+7
 this method cubes a number
 Mathlib.h
 testDriverCube.cpp
