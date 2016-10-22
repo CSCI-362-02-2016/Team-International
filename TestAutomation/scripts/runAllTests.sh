@@ -13,24 +13,25 @@ COMPONENT=${LINES[12]}
 DRIVER=${LINES[13]}
 METHOD=${LINES[14]}
 INPUT=${LINES[15]}
-EXPECTED_OUTCOME=${LINES[16]}
+EXPECTED_OUTPUT=${LINES[16]}
 
 cd ../testCasesExecutables #Switch to Driver Directory
 
 g++ $DRIVER -o ${DRIVER::-4}  #Compile the driver *${DRIVER::-4} shave off .cpp extension*
 
 RESULT=$(./${DRIVER::-4} $INPUT) #Run the driver and save return to $RESULT.
-echo "#########TEST RESULT############"
-echo "Test case #:          $TESTCASE"
-echo "Requirement:          $REQUIREMENT"
-echo "Test driver:          $DRIVER"
-echo "Input being tested:   $INPUT"
-echo "Result:               $RESULT"
+echo "############### TEST RESULT ################"
+echo "Test Case ID:		$TESTCASE"
+echo "Requirement:		$REQUIREMENT"
+echo "Driver:			$DRIVER"
+echo "Input:			$INPUT"
+echo "Expected Output:	$EXPECTED_OUTPUT"
+echo "Actual Output:		$RESULT"
 
-if [ $RESULT -eq $EXPECTED_OUTCOME ]; then
-echo "Test Result:          pass"
+if [ $RESULT -eq $EXPECTED_OUTPUT ]; then
+echo "Test Result:          	Pass"
 else
-echo "Test Result:          fail"
+echo "Test Result:		Fail"
 fi
 
 done #end of for loop

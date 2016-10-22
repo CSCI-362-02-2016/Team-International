@@ -1,4 +1,4 @@
-/* This driver uses the math library from the Celestia project and runs the
+c/* This driver uses the math library from the Celestia project and runs the
 * circleArea() method. 
 * ARG: int radius input
 * RETURN: area of the circle based on its radius

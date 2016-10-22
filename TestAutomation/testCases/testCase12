@@ -8,11 +8,10 @@
 #	7. Expected outcome
 #
 
-6
-this method takes a radius input variable and computes the sphereArea 
-Mathlib.h
+12
+this method takes the sphere area of a radius input
+mathlib.h
 testDriverSphereArea.cpp
 sphereArea()
-2.05
-52.7834
-
+5
+300
