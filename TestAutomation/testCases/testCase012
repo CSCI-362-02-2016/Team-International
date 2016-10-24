@@ -8,10 +8,10 @@
 #	7. Expected outcome
 #
 
-7
-this method cubes a number
-Mathlib.h
-testDriverCube.cpp
-cube()
--2
--8
+012
+this method takes the sphere area of a radius input
+mathlib.h
+testDriverSphereArea.cpp
+sphereArea()
+5
+300

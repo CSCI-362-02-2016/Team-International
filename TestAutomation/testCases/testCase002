@@ -8,10 +8,10 @@
 #	7. Expected outcome
 #
 
-1
+002
 this method squares a number
 mathlib.h
 testDriverSquare.cpp
 square()
-2
-4
+10
+100

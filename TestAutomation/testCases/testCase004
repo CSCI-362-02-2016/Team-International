@@ -8,10 +8,10 @@
 #	7. Expected outcome
 #
 
-2
-this method squares a number
+004
+this method cubes a number
 mathlib.h
-testDriverSquare.cpp
-square()
-10
-100
+testDriverCube.cpp
+cube()
+8
+512

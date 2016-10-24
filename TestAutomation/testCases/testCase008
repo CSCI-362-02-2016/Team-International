@@ -8,10 +8,10 @@
 #	7. Expected outcome
 #
 
-11
+008
 find area of a circle given radius input
 mathlib.h
 testDriverCircleArea.cpp
 circleArea()
-0.0
-0.0
+-5.0
+error

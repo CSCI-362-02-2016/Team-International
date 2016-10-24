@@ -8,10 +8,10 @@
 #	7. Expected outcome
 #
 
-8
-find area of a circle given radius input
+001
+this method squares a number
 mathlib.h
-testDriverCircleArea.cpp
-circleArea()
--5.0
-error
+testDriverSquare.cpp
+square()
+2
+4
