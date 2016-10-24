@@ -1,0 +1,13 @@
+Github basics 2
+
+To add changes that you have made:
+git pull
+git add -A
+git commit -m "message"
+git push
+git status
+
+other helpful commands:
+git log
+git reset
+git branch
