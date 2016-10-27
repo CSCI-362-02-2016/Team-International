@@ -1,12 +1,23 @@
 #include <iostream>
 #include "mathlib.h"
 
+/* This driver uses the math library from the Celestia project and runs the
+* square() method. 
+* ARG: int to be squared
+* RETURN: squared result
+*/
+
+using namespace std;
+
 int main(int argc, char* argv[])
 {
-	using namespace std;
+	if(argc != 2)
+	{
+	 	cout << "ERROR: You need one argument.\n";
+		return 0;
+	}
+
 	int a = atoi(argv[1]);
-	//cout << argv[0] <<endl;
-	//int b = atoi(argv[2]);
 	int retval = square(a);
 	cout << retval <<endl; //return the square of the argument
 
