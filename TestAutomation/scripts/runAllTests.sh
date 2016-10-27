@@ -1,7 +1,37 @@
 #!/bin/bash
 
+cd ./TestAutomation/scripts
+
 #Create header of result table
-echo "<table border ="1px">
+echo "<h2>TEAM INTERNATIONAL</h2>
+	<font face = "Helvetica"><style>
+	h2	{
+		color:blue;
+		font-face: "Helvetica";
+	}
+	table {
+		border: 1px solid black;
+		border-collapse: collapse;
+		width: 100%;
+	}
+	td {
+		border: 1px solid #dddddd;
+		test-align: left;
+		padding: 10px;
+	}
+	th {
+		border: 1px solid #dddddd;
+		test-align: left;
+		padding: 10px;
+		color: white;
+		background-color: #4CAF50;
+	}
+	tr:nth-child(even){
+	background-color: #dddddd;
+	}
+	</style>
+
+	<table>
 	<tr>
 		<th>TestCaseID</th>
 		<th>Method</th>
@@ -14,7 +44,7 @@ echo "<table border ="1px">
 
 		
 	
-	</tr>
+	</tr></font>
 	" > ../reports/report.html
 
 
@@ -50,7 +80,7 @@ for i in $(ls ../testCases); do
 	echo "Expected Output:	$EXPECTED_OUTPUT"
 	echo "Actual Output:		$RESULT"
 	
-	#Compare the result to the expected output
+	#
 	if [ $RESULT "==" $EXPECTED_OUTPUT ]; then
 	RESULT_OUTCOME="pass"
 	echo "Test Result:          	$RESULT_OUTCOME"
