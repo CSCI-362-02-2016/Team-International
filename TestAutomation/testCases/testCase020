@@ -8,10 +8,10 @@
 #	7. Expected outcome
 #
 
-009
-this method takes the sphere area of a radius input
+020
+find area of a circle given radius input
 mathlib.h
-testDriverSphereArea.cpp
-sphereArea()
-5
-310
+testDriverCircleArea.cpp
+circleArea()
+10
+314.159
