@@ -8,11 +8,12 @@
 #	7. Expected outcome
 #
 
-018
+019
 this method takes a radius input variable and computes the sphereArea 
 Mathlib.h
 testDriverSphereArea.cpp
 sphereArea()
-100000
-125664000000
+-300.05
+error
+
 
