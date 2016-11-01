@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ./TestAutomation/scripts
+cd ./scripts
 
 #Create header of result table
 echo "<h2>TEAM INTERNATIONAL</h2>
@@ -90,7 +90,7 @@ for i in $(ls ../testCases); do
 	fi
 
 	#Populate table with results
-
+#<font color="red">$RESULT_OUTCOME</font>
 	echo "<tr><td>$TESTCASE</td><td>$METHOD</td><td>$INPUT</td><td>$EXPECTED_OUTPUT</td><td>$RESULT</td><td>$RESULT_OUTCOME</td>                       </tr>" >> ../reports/report.html
 
 done #end of for loop
