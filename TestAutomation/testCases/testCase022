@@ -8,11 +8,11 @@
 #	7. Expected outcome
 #
 
-005
+022
 this method takes a radius and converts it into degrees based on pi
 Mathlib.h
 testDriverRadToDeg.cpp
 radToDeg()
-0
-0
+1
+57.2958
 
