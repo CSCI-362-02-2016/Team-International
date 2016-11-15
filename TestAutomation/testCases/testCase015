@@ -13,5 +13,5 @@ this method squares a number
 mathlib.h
 testDriverSquare.cpp
 square
-five
-error
+0
+0
