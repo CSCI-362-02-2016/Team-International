@@ -12,6 +12,6 @@
 this method takes a radius input variable and computes the sphereArea 
 Mathlib.h
 testDriverSphereArea.cpp
-sphereArea()
+sphereArea
 5
 314

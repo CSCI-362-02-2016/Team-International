@@ -12,6 +12,6 @@
 this method cubes a number
 mathlib.h
 testDriverCube.cpp
-cube()
+cube
 8
 512
