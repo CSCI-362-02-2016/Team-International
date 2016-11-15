@@ -17,8 +17,8 @@ int main(int argc, char* argv[])
 		return 0;
 	}
 
-	int a = atoi(argv[1]);
-	int retval = sphereArea(a);
+	float a = atof(argv[1]);
+	float retval = sphereArea(a);
 	cout << retval << endl; //return area of the sphere
 
 }

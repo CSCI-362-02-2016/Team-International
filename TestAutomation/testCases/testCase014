@@ -12,6 +12,6 @@
 this method squares a number
 mathlib.h
 testDriverSquare.cpp
-square()
+square
 800000
 640000000000
