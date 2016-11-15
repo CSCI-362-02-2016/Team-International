@@ -9,5 +9,5 @@ git status
 
 other helpful commands:
 git log
-git reset
+git reset --hard
 git branch
