@@ -12,7 +12,7 @@
 this method cubes a number
 mathlib.h
 testDriverCube.cpp
-cube()
+cube
 -1024
 -1073741824
 

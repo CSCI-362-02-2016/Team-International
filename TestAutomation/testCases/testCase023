@@ -12,7 +12,7 @@
 this method takes a radius and converts it into degrees based on pi
 Mathlib.h
 testDriverRadToDeg.cpp
-radToDeg()
+radToDeg
 -57
 -3265.86
 
