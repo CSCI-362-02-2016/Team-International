@@ -8,11 +8,10 @@
 #	7. Expected outcome
 #
 
-005
-this method takes a radius and converts it into degrees based on pi
-Mathlib.h
-testDriverRadToDeg.cpp
-radToDeg()
-0
-0
-
+024
+find area of a circle given radius input
+mathlib.h
+testDriverCircleArea.cpp
+circleArea()
+170000000000
+9.08e+22

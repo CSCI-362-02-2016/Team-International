@@ -9,9 +9,10 @@
 #
 
 009
-this method takes the sphere area of a radius input
-mathlib.h
-testDriverSphereArea.cpp
-sphereArea()
+this method takes a radius and converts it into degrees based on pi
+Mathlib.h
+testDriverRadToDeg.cpp
+radToDeg()
 5
-310
+286.479
+
