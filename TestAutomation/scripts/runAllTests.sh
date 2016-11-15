@@ -9,12 +9,21 @@ echo "<img src="flags.png">" >> ../reports/report.html
 #Create intro and header of result table
 echo "	<h2>Team International Test Results</h2>
 	<hr noshade size="1" color="#EAEAEA">
+
 	<h3>Team Members: </h3> 
 	<p>Gui Costa, Tony Tang, Megan Landau</p>
+
 	<h3>Chosen H/FOSS Project:</h3>
 	<p>Celestia-G2</p>
+
 	<h3>Description of Results: </h3>	
 	<p>The table below displays the results of 25 test cases that were used to analyze Celestia-G2's math library. By creating and using custom drivers for each of the five methods tested, we were able to compare actual outcomes with expected results that we calculated ourselves. Inputs tested include small, large, negative, positive, extremely large, decimal, integer, and zero values. Pass or fail results are displayed in green and red, respectively.</p>
+
+	<h3>Notes about the Celestia-G2 Math Library:</h3>
+	<p><li type="circle">Pi is defined as 3.14159265358979323846</li>
+	<li type="circle">Decimals are rounded to 4 places of precision</li>
+	<li type="circle">Exponential notation is used when the output is greater than e+05 in the circleArea, sphereArea, and radToDeg methods</li></p>	
+
 	<style>
 	h2	{
 		text-align: center;
@@ -34,6 +43,11 @@ echo "	<h2>Team International Test Results</h2>
 		margin: auto;
 	}
 	p {
+		margin-right: 40px;
+		margin-left: 40px;
+		line-height: 20px;	
+	}
+	li {
 		margin-right: 40px;
 		margin-left: 40px;
 		line-height: 20px;	
