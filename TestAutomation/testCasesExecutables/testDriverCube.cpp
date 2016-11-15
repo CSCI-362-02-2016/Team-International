@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 		return 0;
 	}
 
-	int a = atoi(argv[1]);
-  	int retval = cube(a);
+	float a = atof(argv[1]);
+  	float retval = cube(a);
 	cout << retval <<endl; //return the cube of the argument
 }

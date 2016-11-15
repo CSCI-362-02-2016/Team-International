@@ -142,8 +142,8 @@ for i in $(ls ../testCases); do
 
 done #end of for loop
 
-#echo "PASS = $PASS"
-#echo "FAIL = $FAIL"
+echo "PASS = $PASS"
+echo "FAIL = $FAIL"
 
 echo "</html>" >> ../reports/report.html
 
